@@ -38,7 +38,17 @@ public class Main {
             total = total + savings;
             System.out.println("Месяц " + i + " , сумма накоплений равна " + total + " рублей");
         }
+        System.out.println("Задача № 9");
+        int salary = 29000;
+        int totall = 0;
+        for (int i = 1; i <= 12; i++) {
+            totall = totall + salary;
+            totall = totall + totall / 100;
+            totall += totall / 100;
+            System.out.println("Месяц " + i + " Итого " + totall);
+        }
     }
 }
+
 
 
