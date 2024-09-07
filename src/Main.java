@@ -47,8 +47,15 @@ public class Main {
             totall += totall / 100;
             System.out.println("Месяц " + i + " Итого " + totall);
         }
+        System.out.println("Задача № 10");
+        int a = 2;
+        for (int i = 1; i <= 10; i++) {
+            int c = a * i;
+            System.out.println("2*" + i + "=" + c);
+        }
     }
 }
+
 
 
 
